@@ -7,6 +7,6 @@ import { BsCart2 } from "react-icons/bs";
 
 export const CartWidget = () => {
   return (
-    <div><BsCart2/></div>
+    <div><BsCart2 className='carrito'/></div>
   )
 }

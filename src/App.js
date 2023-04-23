@@ -4,6 +4,9 @@ import { ItemListContainer } from "./components/HomeView/ItemListContainer/ItemL
 import {NavBar} from "./components/HomeView/NavBar/NavBar";
 import './App.css';
 import './index.css';
+import { ItemCount } from './components/ItemCount/ItemCount';
+import { Pika } from './components/Pika/Pika';
+import { ItemList } from './components/ItemList/ItemList';
 
 
 
@@ -16,8 +19,13 @@ return (
   <>
 <div>
 <NavBar/> 
-
 <ItemListContainer greeting = "Hola Mundo !" />
+<ItemCount/>
+<hr/>
+<Pika/>
+<hr/>
+<ItemList/>
+
 
 
 </div>
